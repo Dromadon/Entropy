@@ -13,7 +13,7 @@ Basically, the script computes the entropy of the feature with respect to the ta
 This category is kept apart, and we select a second one with the same process, and so on.
 
 ## Limits
-This way of proceeding values the direct correlation/signal between the categories and the target. It does not help with hidden signal that would be highlighted if a category was mixed with another feature by a non-linear algorithm.
+This way of proceeding rewards direct correlation/signal between the categories and the target. It does not help with hidden signal that would be highlighted if a category was mixed with another feature by a non-linear algorithm.
 
 Moreover, categorical features seem to be treated more efficiently by xgboost when simply label encoded. XGBoost then finds himself the splits to do on the feature.
 
